@@ -28,6 +28,9 @@
             "jquery": "2.x",
             "jquery-ui": "1.x"
         },
+        "shim": {
+            "deps": ["jquery"]
+        },
         "include": ["dist/*"],
         "main": "dist/jquery.sp-modal.min.js"
     }

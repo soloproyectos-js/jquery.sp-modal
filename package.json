@@ -29,6 +29,6 @@
             "jquery-ui": "1.x"
         },
         "include": ["dist/*"],
-        "main": "jquery.sp-modal.min.js"
+        "main": "dist/jquery.sp-modal.min.js"
     }
 }

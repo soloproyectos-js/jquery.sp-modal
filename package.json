@@ -1,31 +1,33 @@
 {
-    "name": "jquery.modal",
+    "name": "jquery.sp-modal",
     "title": "jQuery.spModal",
     "description": "A Modal Window System plugin for jQuery",
     "version": "0.1.0",
-    "homepage": "https://github.com/soloproyectos-js/jquery-modal",
+    "homepage": "https://github.com/soloproyectos-js/jquery.sp-modal",
     "author": {
         "name": "Gonzalo Chumillas",
         "url": "https://github.com/soloproyectos"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/soloproyectos-js/jquery-modal.git"
+        "url": "https://github.com/soloproyectos-js/jquery.sp-modal.git"
     },
     "bugs": {
-        "url": "https://github.com/soloproyectos-js/jquery-modal/issues"
+        "url": "https://github.com/soloproyectos-js/jquery.sp-modal/issues"
     },
     "licenses": [
         {
-            "type": "MIT",
-            "url": "https://github.com/soloproyectos-js/jquery-modal/blob/master/LICENSE"
+            "type": "The MIT License (MIT)",
+            "url": "https://github.com/soloproyectos-js/jquery.sp-modal/blob/master/LICENSE"
         }
     ],
-    "dependencies": {
-        "jquery": "~2.0"
-    },
     "keywords": ["jQuery", "plugin", "modal"],
     "jam": {
+        "packageDir": "vendor",
+        "dependencies": {
+            "jquery": "2.x",
+            "jquery-ui": "1.x"
+        },
         "include": ["dist/*"],
         "main": "jquery.sp-modal.min.js"
     }

@@ -79,16 +79,16 @@
         }).done(function (data, status, xhr) {
             ret.resolve(data, status, xhr);
         }).fail(function (xhr, status) {
-            var message = $.type(xhr.responseText) == 'string' && xhr.responseText.length > 0
-                ? xhr.responseText
-                : 'The request has failed';
-            var title = $.type(xhr.statusText) == 'string' && xhr.statusText.length > 0
+            var errorCode = parseInt(xhr.status, 10);
+            var title = errorCode < 500? 'Error': 'Server Error';
+            var message = $.type(xhr.statusText) == 'string' && xhr.statusText.length > 0
                 ? xhr.statusText
-                : 'HTTP Request Error';
+                : 'The request has failed';
             
             // document type not expected or malformed
             if (status == 'parsererror') {
-                title = 'The document is not well formed';
+                title = 'Error';
+                message = 'The document is not well formed';
             }
             
             $.spModal('error', title, message, function () {

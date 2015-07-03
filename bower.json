@@ -24,16 +24,5 @@
   "dependencies": {
     "jquery": "~2.0",
     "jquery-ui": "~1.11.4"
-  },
-  "install": {
-    "path": "vendor",
-    "sources": {
-      "jquery": "bower_components/jquery/jquery.min.js",
-      "jquery-ui": [
-        "bower_components/jquery-ui/jquery-ui-min.js",
-        "bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css",
-        {"bower_components/jquery-ui/themes/smoothness/images/*": "images"}
-      ]
-    }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "name": "jquery.sp-modal",
+  "version": "0.1.0",
+  "homepage": "https://github.com/soloproyectos-js/jquery.sp-modal",
+  "authors": [
+    "Gonzalo Chumillas <gchumillas@email.com>"
+  ],
+  "description": "A Modal Window System plugin for jQuery.",
+  "main": [
+    "dist/jquery.sp-uri.min.js",
+    "dist/jquery.sp-modal-min.css",
+    "dist/images"
+  ],
+  "keywords": [
+    "jquery",
+    "modal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "vendor",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": "~2.0",
+    "jquery-ui": "~1.11.4"
+  },
+  "install": {
+    "path": "vendor",
+    "sources": {
+      "jquery": "bower_components/jquery/jquery.min.js",
+      "jquery-ui": [
+        "bower_components/jquery-ui/jquery-ui-min.js",
+        "bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css",
+        {"bower_components/jquery-ui/themes/smoothness/images/*": "images"}
+      ]
+    }
+  }
+}

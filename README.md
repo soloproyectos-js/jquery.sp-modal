@@ -75,7 +75,7 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 
 ## Asynchronous calls
 
-You can perform asynchronous HTTP requests. Each time you perform an HTTP request a modal loading appears and it is closed when the request is complete.
+You can perform asynchronous HTTP requests. Each time you perform an HTTP request a modal loading appears and it is closed when the request is complete. Available methods are `get` and `post`.
 
 ```JavaScript
 $.spModal('get', 'test.php', {param1: 'one', param2: 'two'})

@@ -28,10 +28,10 @@ $.spModal('confirm', 'Please Confirm', 'Do you want delete the item?', function 
 
 **Opens an error message window**
 ```JavaScript
-$.spModal('error', 'An error has occurred');
+$.spModal('error', 'Error', 'An error has occurred');
 
 // or...
-$.spModal('error', 'An error has occurred', function () {
+$.spModal('error', 'Error', 'An error has occurred', function () {
     // do something just before throwing the error
 });
 ```

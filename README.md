@@ -24,7 +24,7 @@ message.addButton('No', function () {
     message.close();
 });
 ```
-See the file 'src/jquery.sp-modal-message.js' for available methods.
+See the `src/jquery.sp-modal-message.js` file for available methods.
 
 ### Creating a Modal Dialog Box from scratch
 

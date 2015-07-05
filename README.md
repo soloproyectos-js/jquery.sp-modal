@@ -14,7 +14,7 @@ Or copy copy the [dist](/soloproyectos-js/jquery.modal/tree/master/dist) files i
 
 ### Modal Message
 
-A `Modal Message` consist of a modal dialog box with a title, text and some buttons. For example:
+A `Modal Message` consist of a modal dialog box with a title, text and some buttons.
 ```JavaScript
 var message = $.spModal('message', 'Please Confirm', 'Do you want to destroy the world?');
 message.addButton('Yes', function () {
@@ -32,7 +32,7 @@ See the `src/jquery.sp-modal-message.js` file for available methods.
 
 ### Modal Loading
 
-A `Modal Loading` consist of a modal dialog box with a loading image, text and some buttons. For example:
+A `Modal Loading` consist of a modal dialog box with a loading image, text and some buttons.
 ```JavaScript
 var loading = $.spModal('loading', 'This process may take several years\nPlease be patient...');
 loading.addButton('Cancel', function() {
@@ -72,3 +72,18 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 ![Modal Error Message](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
 
 ## Asynchronous calls
+
+You can perform asynchronous HTTP requests. Each time you perform an HTTP request a modal loading appears and it is closed when the request is complete.
+
+```JavaScript
+$.spModal('get', 'test.php', {param1: 'one', param2: 'two'})
+    .done(function () {
+        console.log('Success!');
+    })
+    .fail(function () {
+        console.log('An error has ocurred');
+    })
+    .always(function () {
+        console.log('This function is always called');
+    });
+```

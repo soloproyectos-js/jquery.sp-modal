@@ -28,7 +28,7 @@ See the `src/jquery.sp-modal-message.js` file for available methods.
 
 ### Pre-Configured Dialog Messages
 
-Even thought you can create a modal message from scratch, the library offers a set of pre-configured dialog messages.
+Even though you can create a modal message from scratch, the library offers a set of pre-configured modal messages.
 
 **Creates an alert message window**
 ```JavaScript

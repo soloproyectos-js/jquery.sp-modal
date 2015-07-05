@@ -10,7 +10,25 @@ bower install jquery.sp-uri
 ```
 Or copy copy the [dist](/soloproyectos-js/jquery.modal/tree/master/dist) files in your preferred location.
 
-## Examples
+## Modal Messages
+
+A `Modal Message` consist of a modal dialog box with a title, text and some buttons. For example:
+```JavaScript
+var message = $.spModal('message', 'Please Confirm', 'Do you want to destroy the world?');
+message.addButton('Yes', function () {
+    // destroying the world and closing the dialog box
+    message.close();
+});
+message.addButton('No', function () {
+    console.log('That\'s good');
+    message.close();
+});
+```
+See the file 'src/jquery.sp-modal-message.js' for available methods.
+
+### Creating a Modal Dialog Box from scratch
+
+
 
 **Opens an alert message window**
 ```JavaScript

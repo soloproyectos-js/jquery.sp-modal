@@ -39,7 +39,7 @@ loading.addButton('Cancel', function() {
 ```
 ![Loading Message Window](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)
 
-### Pre-Configured Dialog Messages
+### Pre-Configured Modal Dialogs
 
 Even though you can create a modal message from scratch, the library offers a set of pre-configured modal messages.
 

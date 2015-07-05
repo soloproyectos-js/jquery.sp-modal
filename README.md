@@ -25,3 +25,13 @@ $.spModal('confirm', 'Please Confirm', 'Do you want delete the item?', function 
 });
 ```
 ![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512858/46e728c6-2356-11e5-90f4-1aab7d84663e.png)
+
+**Opens an error message window**
+```JavaScript
+$.spModal('error', 'An error has occurred');
+
+// or...
+$.spModal('error', 'An error has occurred', function () {
+    // do something just before throwing the error
+});
+```

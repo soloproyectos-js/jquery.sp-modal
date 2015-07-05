@@ -10,7 +10,9 @@ bower install jquery.sp-uri
 ```
 Or copy copy the [dist](/soloproyectos-js/jquery.modal/tree/master/dist) files in your preferred location.
 
-## Modal Messages
+## Modal Dialogs
+
+### Modal Message
 
 A `Modal Message` consist of a modal dialog box with a title, text and some buttons. For example:
 ```JavaScript
@@ -25,6 +27,17 @@ message.addButton('No', function () {
 });
 ```
 See the `src/jquery.sp-modal-message.js` file for available methods.
+
+### Modal Loading
+
+A `Modal Loading` consist of a modal dialog box with a loading image, text and some buttons. For example:
+```JavaScript
+var loading = $.spModal('loading', 'This process may take several years\nPlease be patient...');
+loading.addButton('Cancel', function() {
+    loading.close();
+});
+```
+![Loading Message Window](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)
 
 ### Pre-Configured Dialog Messages
 
@@ -54,12 +67,3 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 });
 ```
 ![Error Message Window](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
-
-**Opens a loading message window**
-```JavaScript
-var loading = $.spModal('loading', 'This process may take several years\nPlease be patient...');
-loading.addButton('Cancel', function() {
-    loading.close();
-});
-```
-![Loading Message Window](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)

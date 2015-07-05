@@ -47,7 +47,7 @@ See `src/jquery.sp-modal-loading.js` and `src/jquery.sp-modal-dialog.js` for ava
 
 Even though you can create a modal dialog from scratch, the library offers a set of pre-configured modal dialogs.
 
-**Creates an modal alert message:**
+**Creates a modal alert message:**
 ```JavaScript
 $.spModal('alert', 'Message', 'This is a message');
 ```
@@ -61,7 +61,7 @@ $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', functi
 ```
 ![Modal Confirm Message](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
 
-**Creates an modal error message:**
+**Creates a modal error message:**
 ```JavaScript
 // opens a modal dialog and throws an error
 $.spModal('error', 'Error', 'An error has occurred');

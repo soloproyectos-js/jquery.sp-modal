@@ -2,8 +2,13 @@
 
 A Modal Window System plugin for jQuery.
 
-## Installation
-Copy the [dist](dist) files in your preferred location. See [demos](demos) for more info.
+## Install
+
+Install using [bower](https://github.com/bower/bower) package manager:
+```bash
+bower install jquery.sp-uri
+```
+Or copy copy the [dist](dist) files in your preferred location.
 
 ## Examples
 

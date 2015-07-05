@@ -20,7 +20,7 @@ $.spModal('alert', 'Message', 'This is a message');
 
 **Opens a confirm message window**
 ```JavaScript
-$.spModal('confirm', 'Please Confirm', 'Do you want delete the item?', function () {
+$.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', function () {
     // deleting item
 });
 ```

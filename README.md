@@ -27,6 +27,7 @@ message.addButton('No', function () {
 });
 ```
 ![Modal Message](https://cloud.githubusercontent.com/assets/5312427/8513109/4a06badc-235e-11e5-84d3-84f3a35d1570.png)
+
 See the `src/jquery.sp-modal-message.js` file for available methods.
 
 ### Modal Loading

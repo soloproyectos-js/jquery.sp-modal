@@ -24,7 +24,7 @@ $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', functi
     // deleting item
 });
 ```
-![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512858/46e728c6-2356-11e5-90f4-1aab7d84663e.png)
+![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
 
 **Opens an error message window**
 ```JavaScript

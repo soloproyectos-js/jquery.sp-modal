@@ -36,3 +36,12 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 });
 ```
 ![Error Message Window](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
+
+**Opens a loading message window**
+```JavaScript
+var loading = $.spModal('loading', 'This process may take several years\nPlease be patient...');
+loading.addButton('Cancel', function() {
+    loading.close();
+});
+```
+![Loading Message Window](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)

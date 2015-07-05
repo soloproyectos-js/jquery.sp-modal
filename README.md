@@ -8,7 +8,7 @@ Install using [bower](https://github.com/bower/bower) package manager:
 ```bash
 bower install jquery.sp-uri
 ```
-Or copy copy the [dist](/soloproyectos-js/jquery.modal/tree/master/dist) files in your preferred location.
+Or copy copy the `dist/` files in your preferred location.
 
 ## Modal Dialogs
 

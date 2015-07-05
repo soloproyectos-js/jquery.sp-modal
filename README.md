@@ -26,9 +26,9 @@ message.addButton('No', function () {
 ```
 See the `src/jquery.sp-modal-message.js` file for available methods.
 
-### Creating a Modal Dialog Box from scratch
+### Pre-Configured Dialog Message
 
-
+Even thought you can create a modal message from scratch, the library offers a set of pre-configured dialog messages.
 
 **Opens an alert message window**
 ```JavaScript

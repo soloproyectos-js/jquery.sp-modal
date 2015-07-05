@@ -12,6 +12,11 @@ Or copy copy the [dist](dist) files in your preferred location.
 
 ## Examples
 
+Opens an alert message window:
+```JavaScript
+$.spModal('alert', 'Message', 'This is a message');
+```
+
 Creates a modal loading dialog (see [demos/modal-loading](demos/modal-loading) for a complete example):
 ```JavaScript
 var loading = $.spModal('loading');

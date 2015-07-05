@@ -26,6 +26,7 @@ message.addButton('No', function () {
     message.close();
 });
 ```
+![Modal Message](https://cloud.githubusercontent.com/assets/5312427/8513109/4a06badc-235e-11e5-84d3-84f3a35d1570.png)
 See the `src/jquery.sp-modal-message.js` file for available methods.
 
 ### Modal Loading
@@ -37,27 +38,27 @@ loading.addButton('Cancel', function() {
     loading.close();
 });
 ```
-![Loading Message Window](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)
+![Modal Loading](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)
 
 ### Pre-Configured Modal Dialogs
 
 Even though you can create a modal dialog from scratch, the library offers a set of pre-configured modal dialogs.
 
-**Creates an alert modal message**
+**Creates an modal alert message**
 ```JavaScript
 $.spModal('alert', 'Message', 'This is a message');
 ```
-![Alert Message Window](https://cloud.githubusercontent.com/assets/5312427/8512819/1851d5f2-2355-11e5-84c3-20f22be2463e.png)
+![Modal Alert Message](https://cloud.githubusercontent.com/assets/5312427/8512819/1851d5f2-2355-11e5-84c3-20f22be2463e.png)
 
-**Creates a confirm modal message**
+**Creates a modal confirm message**
 ```JavaScript
 $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', function () {
     // deleting item
 });
 ```
-![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
+![Modal Confirm Message](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
 
-**Creates an error modal message**
+**Creates an modal error message**
 ```JavaScript
 // opens a modal dialog and throws an error
 $.spModal('error', 'Error', 'An error has occurred');
@@ -67,4 +68,4 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
     // do something just before throwing the error
 });
 ```
-![Error Message Window](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
+![Modal Error Message](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)

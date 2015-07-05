@@ -16,6 +16,7 @@ Opens an alert message window:
 ```JavaScript
 $.spModal('alert', 'Message', 'This is a message');
 ```
+![Alert Message Window](https://cloud.githubusercontent.com/assets/5312427/8512819/1851d5f2-2355-11e5-84c3-20f22be2463e.png)
 
 Creates a modal loading dialog (see [demos/modal-loading](demos/modal-loading) for a complete example):
 ```JavaScript

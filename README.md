@@ -26,17 +26,17 @@ message.addButton('No', function () {
 ```
 See the `src/jquery.sp-modal-message.js` file for available methods.
 
-### Pre-Configured Dialog Message
+### Pre-Configured Dialog Messages
 
 Even thought you can create a modal message from scratch, the library offers a set of pre-configured dialog messages.
 
-**Opens an alert message window**
+**Creates an alert message window**
 ```JavaScript
 $.spModal('alert', 'Message', 'This is a message');
 ```
 ![Alert Message Window](https://cloud.githubusercontent.com/assets/5312427/8512819/1851d5f2-2355-11e5-84c3-20f22be2463e.png)
 
-**Opens a confirm message window**
+**Creates a confirm message window**
 ```JavaScript
 $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', function () {
     // deleting item
@@ -44,7 +44,7 @@ $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', functi
 ```
 ![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
 
-**Opens an error message window**
+**Creates an error message window**
 ```JavaScript
 $.spModal('error', 'Error', 'An error has occurred');
 

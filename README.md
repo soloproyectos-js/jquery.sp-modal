@@ -41,15 +41,15 @@ loading.addButton('Cancel', function() {
 
 ### Pre-Configured Modal Dialogs
 
-Even though you can create a modal message from scratch, the library offers a set of pre-configured modal messages.
+Even though you can create a modal dialog from scratch, the library offers a set of pre-configured modal dialogs.
 
-**Creates an alert message window**
+**Creates an alert modal message**
 ```JavaScript
 $.spModal('alert', 'Message', 'This is a message');
 ```
 ![Alert Message Window](https://cloud.githubusercontent.com/assets/5312427/8512819/1851d5f2-2355-11e5-84c3-20f22be2463e.png)
 
-**Creates a confirm message window**
+**Creates a confirm modal message**
 ```JavaScript
 $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', function () {
     // deleting item
@@ -57,8 +57,9 @@ $.spModal('confirm', 'Please Confirm', 'Do you want to delete the item?', functi
 ```
 ![Confirm Message Window](https://cloud.githubusercontent.com/assets/5312427/8512978/b25b751e-2359-11e5-8acc-04cc5dd5968e.png)
 
-**Creates an error message window**
+**Creates an error modal message**
 ```JavaScript
+// opens a modal dialog and throws an error
 $.spModal('error', 'Error', 'An error has occurred');
 
 // or...

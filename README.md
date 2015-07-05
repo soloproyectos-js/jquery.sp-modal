@@ -87,3 +87,19 @@ $.spModal('get', 'test.php', {param1: 'one', param2: 'two'})
         console.log('This function is always called');
     });
 ```
+
+## Uploading files
+
+You can also upload files. When uploading a file a modal loading appears and it is closed when the request is complete.
+
+```JavaScript
+// uploads a unique file
+var inputFile = $('#file');
+inputFile.change(function () {
+    $.spModal('upload', inputFile, 'test.php').done(function (data) {
+        showMessage(data);
+    });
+});
+```
+
+See `demos/modal-request` for complete examples.

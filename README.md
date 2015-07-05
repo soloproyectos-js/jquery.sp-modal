@@ -28,7 +28,7 @@ message.addButton('No', function () {
 ```
 ![Modal Message](https://cloud.githubusercontent.com/assets/5312427/8513109/4a06badc-235e-11e5-84d3-84f3a35d1570.png)
 
-See the `src/jquery.sp-modal-message.js` file for available methods.
+See `src/jquery.sp-modal-message.js` and `src/jquery.sp-modal-dialog.js` for available methods.
 
 ### Modal Loading
 
@@ -40,6 +40,8 @@ loading.addButton('Cancel', function() {
 });
 ```
 ![Modal Loading](https://cloud.githubusercontent.com/assets/5312427/8512945/796c42de-2358-11e5-9e36-4cab304fab24.png)
+
+See `src/jquery.sp-modal-loading.js` and `src/jquery.sp-modal-dialog.js` for available methods.
 
 ### Pre-Configured Modal Dialogs
 

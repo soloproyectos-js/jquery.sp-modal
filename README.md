@@ -35,3 +35,4 @@ $.spModal('error', 'An error has occurred', function () {
     // do something just before throwing the error
 });
 ```
+![Error Message Window](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)

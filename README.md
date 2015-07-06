@@ -72,19 +72,3 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 });
 ```
 ![Modal Error Message](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
-
-## Uploading files
-
-You can also upload files. When uploading a file a modal loading appears and it is closed when the request is complete.
-
-```JavaScript
-// uploads a unique file
-var inputFile = $('#file');
-inputFile.change(function () {
-    $.spModal('upload', inputFile, 'test.php').done(function (data) {
-        showMessage(data);
-    });
-});
-```
-
-See `demos/modal-request` for complete examples.

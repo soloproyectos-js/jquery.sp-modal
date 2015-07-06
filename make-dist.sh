@@ -19,7 +19,7 @@ cat \
 | uglifyjs \
     --compress \
     --mangle \
-    --preamble "/*! jQuery.spModal v0.2.0 | Copyright (c) 2015 Gonzalo Chumillas | https://github.com/soloproyectos-js/jquery.sp-modal/blob/master/LICENSE */" \
+    --preamble "/*! jQuery.spModal v0.3.0 | Copyright (c) 2015 Gonzalo Chumillas | https://github.com/soloproyectos-js/jquery.sp-modal/blob/master/LICENSE */" \
     -o dist/jquery.sp-modal.min.js
 
 # compresses CSS files

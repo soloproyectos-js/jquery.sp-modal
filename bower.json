@@ -7,7 +7,7 @@
   ],
   "description": "A Modal Window System plugin for jQuery.",
   "main": [
-    "dist/jquery.sp-uri.min.js",
+    "dist/jquery.sp-modal.min.js",
     "dist/jquery.sp-modal-min.css",
     "dist/images"
   ],

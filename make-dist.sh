@@ -14,7 +14,6 @@ cat \
     src/jquery.sp-modal-loading.js \
     src/jquery.sp-modal-progress.js \
     src/jquery.sp-modal-message.js \
-    src/jquery.sp-modal-request-upload.js \
     src/jquery.sp-modal.js \
 | uglifyjs \
     --compress \

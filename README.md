@@ -8,7 +8,7 @@ Install using [bower](https://github.com/bower/bower) package manager:
 ```bash
 bower install jquery.sp-modal
 ```
-Or copy copy the `dist/` files in your preferred location.
+Or copy the `dist/` files in your preferred location.
 
 ## Modal Dialogs
 

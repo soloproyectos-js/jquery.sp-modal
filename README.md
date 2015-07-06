@@ -73,23 +73,6 @@ $.spModal('error', 'Error', 'An error has occurred', function () {
 ```
 ![Modal Error Message](https://cloud.githubusercontent.com/assets/5312427/8512899/3a000c30-2357-11e5-9593-c62380339f99.png)
 
-## Asynchronous calls
-
-You can perform asynchronous HTTP requests. Each time you perform an HTTP request a modal loading appears and it is closed when the request is complete. Available methods are `get` and `post`.
-
-```JavaScript
-$.spModal('get', 'test.php', {param1: 'one', param2: 'two'})
-    .done(function () {
-        console.log('Success!');
-    })
-    .fail(function () {
-        console.log('An error has ocurred');
-    })
-    .always(function () {
-        console.log('This function is always called');
-    });
-```
-
 ## Uploading files
 
 You can also upload files. When uploading a file a modal loading appears and it is closed when the request is complete.

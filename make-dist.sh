@@ -14,15 +14,12 @@ cat \
     src/jquery.sp-modal-loading.js \
     src/jquery.sp-modal-progress.js \
     src/jquery.sp-modal-message.js \
-    src/jquery.sp-modal-request.js \
-    src/jquery.sp-modal-request-get.js \
-    src/jquery.sp-modal-request-post.js \
     src/jquery.sp-modal-request-upload.js \
     src/jquery.sp-modal.js \
 | uglifyjs \
     --compress \
     --mangle \
-    --preamble "/*! jQuery.spModal v0.1.2 | Copyright (c) 2015 Gonzalo Chumillas | https://github.com/soloproyectos-js/jquery.sp-modal/blob/master/LICENSE */" \
+    --preamble "/*! jQuery.spModal v0.2.0 | Copyright (c) 2015 Gonzalo Chumillas | https://github.com/soloproyectos-js/jquery.sp-modal/blob/master/LICENSE */" \
     -o dist/jquery.sp-modal.min.js
 
 # compresses CSS files

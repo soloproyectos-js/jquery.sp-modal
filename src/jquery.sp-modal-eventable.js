@@ -67,7 +67,7 @@
      * 
      * @return {jQuery}
      */
-    $.spModalEventable.prototype.trigger = function (eventType) {
+    $.spModalEventable.prototype.trigger = function () {
         var args = Array.prototype.slice.call(arguments);
         
         this._target.trigger.apply(this._target, args);

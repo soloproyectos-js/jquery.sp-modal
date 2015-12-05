@@ -106,6 +106,18 @@
     };
     
     /**
+     * Sets a parameter.
+     * 
+     * @param {String} name  Parameter name
+     * @param {Mixed}  value Value
+     * 
+     * @return {Void}
+     */
+    $.spModalUi.prototype.setParam = function (name, value) {
+        this._modalWindow.data(name, value);
+    };
+    
+    /**
      * Gets the X coordinate.
      * 
      * @return {Number|null}
